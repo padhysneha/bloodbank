@@ -50,29 +50,28 @@ include('includes/config.php');
         <div class="row">
             <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <h4 class="card-header">The need for blood</h4>
+                    <h4 class="card-header">The need for Blood Donation </h4>
                    
-                        <p class="card-text" style="padding-left:2%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p class="card-text" style="padding-left:2%">Blood Donation helps to reduce risk of heart attack and cancer. Donation of blood, burns calories & helps in weight loss. Blood donation helps to maintain healthy liver. Prevents Hemochromatosis and helps to maintain iron level.</p>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
                     <h4 class="card-header">Blood Tips</h4>
                    
-                        <p class="card-text" style="padding-left:2%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p class="card-text" style="padding-left:2%">
+1.Get plenty of sleep the night before you plan to donate.<br>
+2.Eat a healthy meal before your donation. <br>
+3.Drink plenty of water before the donation.<br>
+4.Check to see if any medications you are taking or recently took would prevent you from donating. <br>
+5.Wear a shirt with sleeves that can be rolled up.</p>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
-                <div class="card">
-                    <h4 class="card-header">Who you could Help</h4>
-                   
-                        <p class="card-text" style="padding-left:2%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
-            </div>
+            
         </div>
         <!-- /.row -->
 
-        <!-- Portfolio Section -->
+        <!-- Portfolio Section 
         <h2>Some of the Donar</h2>
 
         <div class="row">
@@ -101,7 +100,7 @@ foreach($results as $result)
                 </div>
             </div>
 
-            <?php }} ?>
+            <?php }} ?>-->
           
  
 
@@ -114,7 +113,7 @@ foreach($results as $result)
         <div class="row">
             <div class="col-lg-6">
                 <h2>BLOOD GROUPS</h2>
-          <p>  blood group of any human being will mainly fall in any one of the following groups.</p>
+          <p>  Blood group of any human being will mainly fall in any one of the following groups.</p>
                 <ul>
                 
                 
@@ -151,7 +150,7 @@ Type O individuals are often called "universal donors" since their blood can be 
     <!-- /.container -->
 
     <!-- Footer -->
-  <?php include('includes/footer.php');?>
+  <?php include('');?>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

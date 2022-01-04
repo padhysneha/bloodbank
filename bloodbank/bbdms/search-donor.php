@@ -179,7 +179,7 @@ echo htmlentities("No Record Found");
 
 
 </div>
-  <?php include('includes/footer.php');?>
+  <?php include('');?>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>

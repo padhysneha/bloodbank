@@ -121,10 +121,11 @@ $error="Something went wrong. Please try again";
 
 <div class="row">
 <div class="col-lg-4 mb-4">
-<div class="font-italic">Age<span style="color:red">*</span></div>
-<div><input type="text" name="age" class="form-control" required></div>
+<div class="font-italic">DOB<span style="color:red">*</span></div>
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       >
 </div>
-
 
 <div class="col-lg-4 mb-4">
 <div class="font-italic">Gender<span style="color:red">*</span></div>
@@ -134,6 +135,38 @@ $error="Something went wrong. Please try again";
 <option value="Female">Female</option>
 </select>
 </div>
+</div>
+
+
+<div class="col-lg-4 mb-4">
+<div class="font-italic">Last Donate Date<span style="color:red">*</span></div>
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31"></div>
+</div>
+
+
+<div class="col-lg-4 mb-4">
+<div class="font-italic">Disease (if any)<span style="color:red">*</span></div>
+<div><input type="text"  class="form-control" required></div>
+</div>
+
+
+<div class="col-lg-4 mb-4">
+<div class="font-italic">Allergies<span style="color:red">*</span></div>
+<div><input type="text" class="form-control" required></div>
+</div>
+
+
+<div class="col-lg-4 mb-4">
+<div class="font-italic">Cardiac<span style="color:red">*</span></div>
+<div><input type="text" class="form-control" required></div>
+</div>
+
+
+<div class="col-lg-4 mb-4">
+<div class="font-italic">Bleeding Disorders<span style="color:red">*</span></div>
+<div><input type="text" class="form-control" required></div>
 </div>
 
 <div class="col-lg-4 mb-4">
@@ -153,7 +186,7 @@ foreach($results as $result)
 </select>
 </div>
 </div>
-</div>
+
 
 
 <div class="row">
@@ -161,6 +194,7 @@ foreach($results as $result)
 <div class="font-italic">Address</div>
 <div><textarea class="form-control" name="address"></textarea></div>
 </div>
+
 
 <div class="col-lg-8 mb-4">
 <div class="font-italic">Message<span style="color:red">*</span></div>
@@ -172,7 +206,7 @@ foreach($results as $result)
 <div class="col-lg-4 mb-4">
 <div><input type="submit" name="submit" class="btn btn-primary" value="submit" style="cursor:pointer"></div>
 </div>
-
+</div>
 
 
 </div>
@@ -183,7 +217,7 @@ foreach($results as $result)
 </form>   
         <!-- /.row -->
 </div>
-  <?php include('includes/footer.php');?>
+  <?php include('');?>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>

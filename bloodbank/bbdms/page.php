@@ -74,7 +74,7 @@ foreach($results as $result)
     <?php } } ?>
 
     <!-- Footer -->
-   <?php include('includes/footer.php');?>
+   <?php include('');?>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
